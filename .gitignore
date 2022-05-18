@@ -43,3 +43,4 @@ vignettes/*.pdf
 corpora/*.csv
 corpora/*.RData
 corpora/*.tsv
+corpora/*.tab
