@@ -19,8 +19,7 @@ no_topics <- 25 # number of topics
 ### From this point on, you can run the full script without changing anything 
 
 # required packages:
-install.packages("stylo")
-library(stylo)
+if (!require("stylo")) install.packages("stylo")
 
 ### Prepare the corpus
 tm_corpus <- list()
