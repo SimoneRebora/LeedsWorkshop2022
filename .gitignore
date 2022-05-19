@@ -44,3 +44,4 @@ corpora/*.csv
 corpora/*.RData
 corpora/*.tsv
 corpora/*.tab
+corpora/*.txt

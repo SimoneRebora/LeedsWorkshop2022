@@ -1,4 +1,4 @@
-## Convert_to_Orange
+## Convert_Goodreads_to_Orange
 
 # This script will convert the Goodreads reviews
 # (hosted in the .csv files in the "corpora" folder)
@@ -14,7 +14,7 @@ library(cld2)
 
 my_files <- list.files("corpora/", pattern = ".csv", full.names = T)
 
-newfile <- "corpora/my_Orange_corpus.tab"
+newfile <- "corpora/my_Orange_Goodreads_corpus.tab"
 
 for(i in 1:length(my_files)){
   
